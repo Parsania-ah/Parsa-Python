@@ -37,10 +37,10 @@ while True:
     if op=="*":
         print(float(a*b))
     if op=="/":
-        
-        #if b==0:
-            #print("ERROR_b should not be zero")
-        print(float(a/b))
+        if b==0:
+            print("ERROR_b should not be zero")
+        else:    
+            print(float(a/b))
 
     
     
